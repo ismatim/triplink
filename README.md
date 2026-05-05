@@ -1,7 +1,3 @@
-Here is a comprehensive `README.md` that captures the modern, agentic nature of your app. It’s designed to be clear for both users and developers.
-
----
-
 # 🌍 TripLink Agent
 
 **TripLink Agent** is an AI-powered travel concierge that transforms YouTube travel guides into professional, structured itineraries. Using **Retrieval-Augmented Generation (RAG)**, the agent doesn't just summarize a video; it builds a searchable memory of the trip, allowing you to ask follow-up questions about prices, locations, and logistics in your preferred language.
