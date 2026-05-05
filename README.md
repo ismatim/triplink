@@ -46,7 +46,7 @@ The app follows a modern **Agentic Workflow**:
 2. **Install dependencies:**
 
    ```bash
-   pip install -r requirements.txt
+   uv pip install -r requirements.txt
    ```
 
    _Note: Ensure you have `yt-dlp`, `langchain-openai`, `faiss-cpu`, and `youtube-transcript-api` installed._
@@ -88,6 +88,17 @@ agent = TripLinkAgent(language="English")
 # Adjust chunk size for shorter/longer videos
 splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
 ```
+
+--
+
+## Roadmap
+
+### Phase 1: Stabilization & UX
+
+Disk Persistence: Save/load the FAISS index locally so you don't have to re-index videos every session.
+Deep-Linking: Auto-generate YouTube links with timestamps (&t=seconds) for instant verification.
+Auto-Language Sync: Automatically match the output language to the user's input (e.g., reply in Spanish if asked in Spanish).
+Live Web Verification: Use tools like Tavily to check if restaurants mentioned in older videos are still open.
 
 ---
 
