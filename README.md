@@ -95,10 +95,10 @@ splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
 
 ### Phase 1: Stabilization & UX
 
-Disk Persistence: Save/load the FAISS index locally so you don't have to re-index videos every session.
-Deep-Linking: Auto-generate YouTube links with timestamps (&t=seconds) for instant verification.
-Auto-Language Sync: Automatically match the output language to the user's input (e.g., reply in Spanish if asked in Spanish).
-Live Web Verification: Use tools like Tavily to check if restaurants mentioned in older videos are still open.
+- Disk Persistence: Save/load the FAISS index locally so you don't have to re-index videos every session.
+- Deep-Linking: Auto-generate YouTube links with timestamps (&t=seconds) for instant verification.
+- Auto-Language Sync: Automatically match the output language to the user's input (e.g., reply in Spanish if asked in Spanish).
+- Live Web Verification: Use tools like Tavily to check if restaurants mentioned in older videos are still open.
 
 ---
 
