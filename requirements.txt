@@ -1,0 +1,15 @@
+# YouTube & Data Extraction
+youtube-transcript-api==1.2.4
+faiss-cpu==1.13.2
+
+# LangChain 2026 Ecosystem
+langchain==1.2.17
+langchain-community
+langchain-openai==1.2.1
+openai>=1.50.0
+langchain-text-splitters
+
+# Specialized Psychology/Embedding Tools
+sentence-transformers==5.4.1
+torch
+transformers
