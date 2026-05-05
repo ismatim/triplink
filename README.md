@@ -89,7 +89,7 @@ agent = TripLinkAgent(language="English")
 splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
 ```
 
---
+---
 
 ## Roadmap
 
